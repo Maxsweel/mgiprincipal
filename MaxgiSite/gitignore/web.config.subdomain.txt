@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <system.webServer>
+   <rewrite>
+    <rules>
+      <rule name="Rewrite para SITE1" stopProcessing="true">
+          <match url="(.*)" />
+          <conditions>
+                     <!--#Redireciona site1.com.br para pasta /site1/-->
+                      <add input="{HTTP_HOST}" pattern="^(?:www\.)?temporario.maxgi.com.br$" />
+                      <add input="{PATH_INFO}" pattern="^/temporario/" negate="true" />
+          </conditions>
+          <action type="Rewrite" url="\temporario\{R:0}" />
+      </rule>
+      <!-- caso precise de novas regras
+      <rule name="Rewrite para SITE2" stopProcessing="true">
+          <match url="(.*)" />
+          <conditions>
+                      <add input="{HTTP_HOST}" pattern="^(?:www\.)?site2.com.br$" />
+                      <add input="{PATH_INFO}" pattern="^/site2/" negate="true" />
+          </conditions>
+          <action type="Rewrite" url="\site2\{R:0}" />
+      </rule>
+      -->
+    </rules>
+   </rewrite>
+  </system.webServer>
+</configuration>
+
+
+
+<!--
+[ISAPI_Rewrite]
+RewriteCond Host: ^maxgi.com.br/temporario
+RewriteRule (.*) http\:temporario.maxgi.com.br [RP,L]
+
+RewriteCond Host: ^http\://maxgi.com.br/temporario
+RewriteRule (.*) http\://www.temporario.maxgi.com.br [RP,L]
+
+RewriteCond Host: (?:www\.)?temporario\.maxgi\.com\.br
+RewriteRule (.*) /temporario$1 [I,L]
+-->
+
