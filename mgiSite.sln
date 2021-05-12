@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxgiSite", "MaxgiSite\MaxgiSite.csproj", "{A4316DD4-DB9D-4159-A0E6-1902D62BD492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mgiSite", "MaxgiSite\mgiSite.csproj", "{A4316DD4-DB9D-4159-A0E6-1902D62BD492}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
