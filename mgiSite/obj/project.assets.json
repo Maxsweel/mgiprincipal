@@ -716,11 +716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\wamp64\\www\\maxgi\\MaxgiSite\\MaxgiSite\\mgisite.csproj",
-      "projectName": "mgisite",
-      "projectPath": "D:\\wamp64\\www\\maxgi\\MaxgiSite\\MaxgiSite\\mgisite.csproj",
+      "projectUniqueName": "D:\\wamp64\\www\\maxgi\\MaxgiSite\\mgiSite\\mgiSite.csproj",
+      "projectName": "mgiSite",
+      "projectPath": "D:\\wamp64\\www\\maxgi\\MaxgiSite\\mgiSite\\mgiSite.csproj",
       "packagesPath": "C:\\Users\\maxsw\\.nuget\\packages\\",
-      "outputPath": "D:\\wamp64\\www\\maxgi\\MaxgiSite\\MaxgiSite\\obj\\",
+      "outputPath": "D:\\wamp64\\www\\maxgi\\MaxgiSite\\mgiSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
