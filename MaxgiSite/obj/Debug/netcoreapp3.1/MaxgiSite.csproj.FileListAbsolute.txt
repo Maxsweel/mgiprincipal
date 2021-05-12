@@ -351,3 +351,6 @@ D:\wamp64\www\maxgi\MaxgiSite\MaxgiSite\obj\Debug\netcoreapp3.1\MaxgiSite.csproj
 D:\wamp64\www\maxgi\MaxgiSite\MaxgiSite\obj\Debug\netcoreapp3.1\MaxgiSite.dll
 D:\wamp64\www\maxgi\MaxgiSite\MaxgiSite\obj\Debug\netcoreapp3.1\MaxgiSite.pdb
 D:\wamp64\www\maxgi\MaxgiSite\MaxgiSite\obj\Debug\netcoreapp3.1\MaxgiSite.genruntimeconfig.cache
+D:\wamp64\www\maxgi\MaxgiSite\MaxgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\MaxgiSite\bin\Debug\netcoreapp3.1\PartialResponse.Core.dll
+D:\wamp64\www\maxgi\MaxgiSite\MaxgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Footer.cshtml.g.cs
