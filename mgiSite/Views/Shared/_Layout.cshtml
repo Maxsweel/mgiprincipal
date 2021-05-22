@@ -7,13 +7,74 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - MaxgiSite</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!--Styles-->
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Menu.css" />
+
+    <!--Scripts-->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+
+    <!--Animation menu-->
+    <script type="text/javascript">
+
+        (function ($) {
+            "use strict";
+
+            $(function () {
+                var header = $(".start-style");
+                $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+
+                    if (scroll >= 10) {
+                        header.removeClass('start-style').addClass("scroll-on");
+                    } else {
+                        header.removeClass("scroll-on").addClass('start-style');
+                    }
+                });
+            });
+
+            //Animation
+
+            $(document).ready(function () {
+                $('body.hero-anime').removeClass('hero-anime');
+            });
+
+            //Menu On Hover
+
+            $('body').on('mouseenter mouseleave', '.nav-item', function (e) {
+                if ($(window).width() > 750) {
+                    var _d = $(e.target).closest('.nav-item'); _d.addClass('show');
+                    setTimeout(function () {
+                        _d[_d.is(':hover') ? 'addClass' : 'removeClass']('show');
+                    }, 1);
+                }
+            });
+
+            //Switch light/dark
+
+            $("#switch").on('click', function () {
+                if ($("body").hasClass("dark")) {
+                    $("body").removeClass("dark");
+                    $("#switch").removeClass("switched");
+                }
+                else {
+                    $("body").addClass("dark");
+                    $("#switch").addClass("switched");
+                }
+            });
+
+        })(jQuery);
+
+    </script>
+
 </head>
 
 
 
-<body>
+<body class="hero-anime">
 
     <!--Menu bootstrap and top-->
     <partial name="_Menu.cshtml" />
@@ -21,11 +82,10 @@
 
 
     <!--Body-->
-    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    </div>
+
 
 
 
@@ -34,7 +94,6 @@
 
 
     <!--Script bootstrap-->
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)

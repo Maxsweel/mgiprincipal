@@ -1,21 +1,76 @@
-﻿<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MaxgiSite</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                    </li>
-                </ul>
+﻿<div class="container-fluid" style="background:#ffffff; min-height:100px">
+<div class="navigation-wrap bg-light start-header start-style float-left">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md navbar-light">
+
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/logo.png" alt=""></a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto py-4 py-md-0">
+
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Principal</a>
+                            </li>
+
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Institucional</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Sobre a Max GI</a>
+                                    <a class="dropdown-item" href="#">Clientes</a>
+                                    <a class="dropdown-item" href="#">Nossos Valores</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Produtos</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">CRM/ERP MGI</a>
+                                    <a class="dropdown-item" href="#">E-commerce</a>
+                                    <a class="dropdown-item" href="#">Sistemas personalizados</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Conteúdo</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Central de Ajuda</a>
+                                    <a class="dropdown-item" href="#">Canal no Youtube</a>
+                                    <a class="dropdown-item" href="#">Materiais</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Login</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">ERP MGI</a>
+                                    <a class="dropdown-item" href="#">Portal</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </nav>
             </div>
         </div>
-    </nav>
-</header>
+    </div>
+</div>
+</div>
+
+
+
+

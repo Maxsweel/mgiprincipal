@@ -1,0 +1,25 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+.configfooter{font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+    margin-top: 250px;
+    background: #1D75BD;
+    color: #ffffff !important;
+    margin-bottom: 0;
+    padding-bottom: 0}
+
+
+.footermenu1{background:#ff0000}
+.footermenu2{background:#ffd800}
+
+.linhavert {
+    height: 200px;
+    border-right: 1px solid;
+    color:#000000;
+    padding:10px;
+    background:#b200ff;
+    
+}
+
+
