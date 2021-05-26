@@ -22,9 +22,9 @@
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                    aria-haspopup="true" aria-expanded="false">Institucional</a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Sobre a Max GI</a>
-                                    <a class="dropdown-item" href="#">Clientes</a>
-                                    <a class="dropdown-item" href="#">Nossos Valores</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Institucional" asp-action="Sobre">Sobre a Max GI</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Institucional" asp-action="Clientes">Clientes</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Institucional" asp-action="Valores">Nossos Valores</a>
                                 </div>
                             </li>
 
@@ -32,9 +32,9 @@
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                    aria-haspopup="true" aria-expanded="false">Produtos</a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">CRM/ERP MGI</a>
-                                    <a class="dropdown-item" href="#">E-commerce</a>
-                                    <a class="dropdown-item" href="#">Sistemas personalizados</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Produtos" asp-action="Erp">CRM/ERP MGI</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Produtos" asp-action="Ecommerce">E-commerce</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Produtos" asp-action="Sistemas">Sistemas personalizados</a>
                                 </div>
                             </li>
 
@@ -42,9 +42,9 @@
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                    aria-haspopup="true" aria-expanded="false">Conteúdo</a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Central de Ajuda</a>
-                                    <a class="dropdown-item" href="#">Canal no Youtube</a>
-                                    <a class="dropdown-item" href="#">Materiais</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Conteudo" asp-action="Ajuda">Central de Ajuda</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Conteudo" asp-action="Canal">Canal no Youtube</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Conteudo" asp-action="Materiais">Materiais</a>
                                 </div>
                             </li>
 
@@ -52,13 +52,13 @@
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                    aria-haspopup="true" aria-expanded="false">Login</a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">ERP MGI</a>
-                                    <a class="dropdown-item" href="#">Portal</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Erp">ERP MGI</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Portal">Portal</a>
                                 </div>
                             </li>
 
                             <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                <a class="nav-link" href="#">Contato</a>
+                                <a class="nav-link" asp-area="" asp-controller="Contato" asp-action="Form">Contato</a>
                             </li>
 
                         </ul>

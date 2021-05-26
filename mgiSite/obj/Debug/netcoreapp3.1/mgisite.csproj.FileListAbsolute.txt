@@ -707,3 +707,15 @@ D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\mgiSite.dll
 D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\mgiSite.pdb
 D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\mgiSite.genruntimeconfig.cache
 D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Banner.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Contato\Form.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Institucional\Clientes.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Institucional\Sobre.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Institucional\Valores.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Conteudo\Ajuda.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Conteudo\Canal.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Conteudo\Materiais.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Login\Erp.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Login\Portal.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Ecommerce.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Erp.cshtml.g.cs
+D:\wamp64\www\maxgi\MaxgiSite\mgiSite\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Sistemas.cshtml.g.cs

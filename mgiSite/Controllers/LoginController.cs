@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace mgiSite.Controllers
 {
-    public class ContatoController : Controller
+    public class LoginController : Controller
     {
-        public IActionResult Form()
+        public IActionResult Erp()
         {
             return View();
         }
+
+        public IActionResult Portal()
+        {
+            return View();
+        }
+
     }
 }
