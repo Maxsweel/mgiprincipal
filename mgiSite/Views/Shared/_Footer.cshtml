@@ -1,39 +1,39 @@
-﻿    <footer id="myFooter">
+﻿    <footer id="myFooter" class="container-fluid float-left p-0">
         <div class="container">
             <div class="row">
                 
-                <div class="col-sm-2 logorodape">
+                <div class="col-lg-2 col-sm-6 logorodape">
                     <h2><A asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/logo.png" alt=""></a></h2>
                 </div>
 
-                <div class="col-sm-3">
+                <div class="col-lg-3 col-sm-6">
                     <h5>MAPA DO SITE</h5>
                     <ul>
                         <li><a asp-area="" asp-controller="Home" asp-action="Index">Principal</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Sobre</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Clientes</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Nossos Valores</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">CRM/ERP MGI</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">E-commerce</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Sistemas personalizados</a></li>
+                        <li><a asp-area="" asp-controller="Institucional" asp-action="Sobre">Sobre</a></li>
+                        <li><a asp-area="" asp-controller="Institucional" asp-action="Clientes">Clientes</a></li>
+                        <li><a asp-area="" asp-controller="Institucional" asp-action="Valores">Nossos Valores</a></li>
+                        <li><a asp-area="" asp-controller="Produtos" asp-action="Erp">CRM/ERP MGI</a></li>
+                        <li><a asp-area="" asp-controller="Produtos" asp-action="Ecommerce">E-commerce</a></li>
+                        <li><a asp-area="" asp-controller="Produtos" asp-action="Sistemas">Sistemas personalizados</a></li>
 
                     </ul>
                 </div>
 
-                <div class="col-sm-3">
+                <div class="col-lg-3 col-sm-6">
                     <h5>EXTRAS</h5>
                     <ul>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Central de Ajuda</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Canal no Youtube</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Materiais</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Login</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">ERP MGI</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Portal</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Contato</a></li>
+                        <li><a asp-area="" asp-controller="Conteudo" asp-action="Ajuda">Central de Ajuda</a></li>
+                        <li><a asp-area="" asp-controller="Conteudo" asp-action="Canal">Canal no Youtube</a></li>
+                        <li><a asp-area="" asp-controller="Conteudo" asp-action="Materiais">Materiais</a></li>
+                        <li><a asp-area="" asp-controller="Login" asp-action="Erp">Login</a></li>
+                        <li><a asp-area="" asp-controller="Login" asp-action="Erp">ERP MGI</a></li>
+                        <li><a asp-area="" asp-controller="Login" asp-action="Portal">Portal</a></li>
+                        <li><a asp-area="" asp-controller="Contato" asp-action="Form">Contato</a></li>
                     </ul>
                 </div>
 
-                <div class="col-sm-2">
+                <div class="col-lg-2 col-sm-6">
                     <h5>ENDEREÇO</h5>
                     <ul>
                         <li style="overflow:hidden">
@@ -43,7 +43,7 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-2">
+                <div class="col-lg-2 col-sm-12">
                     <div class="social-networks">
 
                         <a href="#" class="youtube"><i class="fab fa-youtube-square"></i></a>
@@ -51,13 +51,13 @@
                         <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
                     </div>
                     <a href="#">
-                        <button type="button" class="btn btn-default">Login</button>
+                        <input type="button" class="btn btn-default" asp-area="" asp-controller="" asp-action="" value="Login">
                     </a>
                 </div>
 
             </div>
         </div>
-        <div class="footer-copyright">
+        <div class="footer-copyright container-fluid">
             <p>© 2021 Copyright - Maxgi Consultoria & sistemas - Todos os direitos reservados</p>
         </div>
     </footer>

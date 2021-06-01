@@ -4,23 +4,91 @@ for details on configuring this project to bundle and minify static web assets. 
 
 
 /*FONTS*/
+
 @font-face {
-    font-family: century;
+    font-family: 'futurabk';
+    src: url(../font/futura_bk_bt/FuturaBookBT.ttf)
+}
+
+
+@font-face {
+    font-family: 'futura';
+    src: url(../font/futura_bk_bt/FutuBk.ttf)
+}
+
+@font-face {
+    font-family: 'century';
     src: url(../font/century-gothic.ttf)
 }
 
 @font-face {
-    font-family: Nunito;
+    font-family: 'Nunito';
     src: url(../font/Nunito/Nunito-Regular.ttf),
-    url(../font/Nunito/Nunito-Bold.ttf),
-    url(../font/Nunito/Nunito-Light.ttf),
     url(../font/Nunito/Nunito-SemiBold.ttf)
 
 }
-
-
-body {
-    font-family: 'century', sans-serif;
+@font-face {
+    font-family: 'Nunito-bold';
+    src: url(../font/Nunito/Nunito-Bold.ttf)
 }
 
+@font-face {
+    font-family: 'Nunito-light';
+    src: url(../font/Nunito/Nunito-Light.ttf)
+}
+
+/*FONTS*/
+
+
+
+
+/*GLOBAIS*/
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+    
+
+
+.titlesite{}
+    .titlesite h3 {
+        font-family: 'futurabk';
+        color: #f3711b;
+        text-align: center;
+    }
+    .titlesite p {
+        font-family: 'futura';
+        color: #1d75db;
+        text-align: center;
+    }
+
+/*GLOBAIS*/
+
+
+
+
+
+
+
 /***************************************************CSS MENU PRINCIPAL***********************************************/
+.response {
+    text-align: center;
+    font-size: 52px;
+    color: #1d75db;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'futurabk';
+    font-size: 12pt;
+    font-weight:bold;
+}
+
+.ptext {
+    text-align: center;
+    font-family: 'futura';
+    font-size: 11pt;
+}
