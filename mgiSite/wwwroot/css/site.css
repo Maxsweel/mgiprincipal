@@ -1,5 +1,6 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿/* Style for all website only here.
+    Specific style are separated.
+*/
 
 
 
@@ -63,32 +64,45 @@ body {
         text-align: center;
     }
 
+
+.titlesitewhite {
+}
+
+    .titlesitewhite h3 {
+        font-family: 'futurabk';
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .titlesitewhite p {
+        font-family: 'futura';
+        color: #ffffff;
+        text-align: center;
+    }
+
+
+
+
+.btnpadrao {
+    font-family: 'futurabk';
+    color: white;
+    background-color: #f3711b;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    max-width: 250px;
+    min-height:40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.btnpadrao:hover {
+    background-color: #d75d0c;
+    color: white;
+}
+
+
 /*GLOBAIS*/
 
-
-
-
-
-
-
-/***************************************************CSS MENU PRINCIPAL***********************************************/
-.response {
-    text-align: center;
-    font-size: 52px;
-    color: #1d75db;
-    padding: 10px;
-    transition: 0.2s;
-}
-
-.subtitle {
-    text-align: center;
-    font-family: 'futurabk';
-    font-size: 12pt;
-    font-weight:bold;
-}
-
-.ptext {
-    text-align: center;
-    font-family: 'futura';
-    font-size: 11pt;
-}
