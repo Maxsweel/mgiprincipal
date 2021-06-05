@@ -5,12 +5,14 @@
     padding: 10px;
     transition: 0.2s;
 }
-
-.subtitle {
+    .response:hover {
+        color: #f3711b;
+    }
+    .subtitle {
     text-align: center;
     font-family: 'futurabk';
     font-size: 11pt;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .ptext {
@@ -56,6 +58,15 @@
         color: #f1f1f1;
         padding-bottom: 10px;
     }
+
+
+.cardper{
+
+}
+
+.cardper img {
+    width:100%;
+}
 
 
 
